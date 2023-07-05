@@ -1,0 +1,899 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7249548600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should be able Check Desktops functionality",
+        "description": "",
+        "id": "check-desktops-and-laptops-menu-fearture;user-should-be-able-check-desktops-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 709159099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 104410400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on HomePage",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 233127100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on menu item \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1032339500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Show all menu item button \"Show AllDesktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllDesktops",
+                  "offset": 35
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickShowAllMenuItemButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 468444100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on sort by order \"Name (A - Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (A - Z)",
+                  "offset": 26
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnSortByOrder(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1136811601,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Select Product \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42251200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify Product text \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 23
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyProductText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123444101,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Delivery Date \"2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 24
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iSelectDeliveryDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167920900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter Quantity \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iEnterQuantity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2096839000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Add to cart button",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415185201,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Shopping Cart",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45971700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify product text in Cart \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 31
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyProductTextInCart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45231300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify Delivery Date \"Delivery Date:2022-11-30\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delivery Date:2022-11-30",
+                  "offset": 24
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyDeliveryDate(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25457699,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify modelno. \"Product 21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product 21",
+                  "offset": 19
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyModelno(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643633900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on currency change \"£Pound Sterling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£Pound Sterling",
+                  "offset": 28
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnCurrencyChange(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36135400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify Total Amount \"£74.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£74.73",
+                  "offset": 23
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyTotalAmount(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5871377000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able Check Laptops and Notebooks functionality",
+        "description": "",
+        "id": "check-desktops-and-laptops-menu-fearture;user-should-be-able-check-laptops-and-notebooks-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 735680900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am on HomePage",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149365800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on menu item \"Laptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops \u0026 Notebooks",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnMenuItem(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 662840100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click Show all menu item button \"Show AllLaptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllLaptops \u0026 Notebooks",
+                  "offset": 35
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickShowAllMenuItemButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 476295100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on sort by order \"Price (High \u003e Low)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Price (High \u003e Low)",
+                  "offset": 26
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnSortByOrder(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1205369300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Select Product \"MacBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MacBook",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39786200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify Product text \"MacBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MacBook",
+                  "offset": 23
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyProductText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2058711699,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Add to cart button",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 444604600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Shopping Cart",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnShoppingCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51402799,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I verify product text in Cart \"MacBook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MacBook",
+                  "offset": 31
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyProductTextInCart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39199400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I verify modelno. \"Product 16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product 16",
+                  "offset": 19
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyModelno(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141912399,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Edit quantity \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iEditQuantity(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583648300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I Update Quantity",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iUpdateQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70987200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I verify quantity update text",
+            "match": {
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyQuantityUpdateText()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675653400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I click on currency change \"£Pound Sterling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£Pound Sterling",
+                  "offset": 28
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iClickOnCurrencyChange(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44155899,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify Total Amount \"£737.45\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£737.45",
+                  "offset": 23
+                }
+              ],
+              "location": "DesktopsAndLaptopsMenuItemsStepdefs.iVerifyTotalAmount(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check DeskTops and Laptops menu Fearture",
+    "description": "As a User want to Check DeskTops and Laptops functionality",
+    "id": "check-desktops-and-laptops-menu-fearture",
+    "keyword": "Feature",
+    "uri": "DesktopsAndLaptops.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5829645200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should Select Menu Item successfully",
+        "description": "",
+        "id": "select-menu-item-fearture;user-should-select-menu-item-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 651302399,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 83001,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home page",
+            "match": {
+              "location": "MenuStepdefs.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 160413000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select Menu Items \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 21
+                }
+              ],
+              "location": "MenuStepdefs.iSelectMenuItems(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1090197700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Select Show All Items \"Show AllDesktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllDesktops",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iSelectShowAllItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31745300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify menu item text \"Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Desktops",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iVerifyMenuItemText(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6082988100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should Select Menu Item successfully",
+        "description": "",
+        "id": "select-menu-item-fearture;user-should-select-menu-item-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 634722200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home page",
+            "match": {
+              "location": "MenuStepdefs.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 154043800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select Menu Items \"Laptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops \u0026 Notebooks",
+                  "offset": 21
+                }
+              ],
+              "location": "MenuStepdefs.iSelectMenuItems(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 672433900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Select Show All Items \"Show AllLaptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllLaptops \u0026 Notebooks",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iSelectShowAllItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47380900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify menu item text \"Laptops \u0026 Notebooks\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laptops \u0026 Notebooks",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iVerifyMenuItemText(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5663226600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "User should Select Menu Item successfully",
+        "description": "",
+        "id": "select-menu-item-fearture;user-should-select-menu-item-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 684661899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 54600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home page",
+            "match": {
+              "location": "MenuStepdefs.userIsOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 152164700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Select Menu Items \"Components\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Components",
+                  "offset": 21
+                }
+              ],
+              "location": "MenuStepdefs.iSelectMenuItems(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 611899001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Select Show All Items \"Show AllComponents\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show AllComponents",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iSelectShowAllItems(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30889300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify menu item text \"Components\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Components",
+                  "offset": 25
+                }
+              ],
+              "location": "MenuStepdefs.iVerifyMenuItemText(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Select Menu Item Fearture",
+    "description": "As a User want to Select Menu Item functionality",
+    "id": "select-menu-item-fearture",
+    "keyword": "Feature",
+    "uri": "Menu.feature"
+  }
+]
