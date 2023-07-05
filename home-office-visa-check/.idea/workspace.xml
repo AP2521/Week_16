@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcb72f87-eef1-491b-b18b-3139fce7b004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-tutorialsninja-sw-3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-tutorialsninja-sw-3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-tutorialsninja-sw-3/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-tutorialsninja-sw-3/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../com-tutorialsninja-sw-3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
