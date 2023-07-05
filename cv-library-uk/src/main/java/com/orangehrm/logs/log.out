@@ -1,0 +1,13 @@
+2023-07-04 23:07:555 INFO  ManageBrowser :32 - launching chrome browser
+2023-07-04 23:07:42 INFO  ManageBrowser :32 - launching chrome browser
+2023-07-04 23:07:313 INFO  ManageBrowser :32 - launching chrome browser
+2023-07-04 23:07:592 INFO  HomePage :39 - Send text to Jobtitle[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: keywords]
+2023-07-04 23:07:774 INFO  HomePage :43 - Send text to Location[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: location]
+2023-07-04 23:07:920 INFO  HomePage :47 - Select Distance[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> xpath: //select[@id='distance']]
+2023-07-04 23:07:109 INFO  HomePage :51 - Click on More search button[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: toggle-hp-search]
+2023-07-04 23:07:401 INFO  HomePage :55 - Select Salary minimum[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: salarymin]
+2023-07-04 23:07:526 INFO  HomePage :59 - Select Salary Maximum[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: salarymax]
+2023-07-04 23:07:625 INFO  HomePage :63 - Select Salary type[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> xpath: //select[@id='salarytype']]
+2023-07-04 23:07:743 INFO  HomePage :67 - Select job type[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: tempperm]
+2023-07-04 23:07:865 INFO  HomePage :71 - Click on find job[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> id: hp-search-btn]
+2023-07-04 23:07:484 INFO  ResultPage :21 - Verify Result[[ChromeDriver: chrome on WINDOWS (6ac533edbf4d438671ec55c6c76315d8)] -> xpath: //h1[@class='search-header__title']]

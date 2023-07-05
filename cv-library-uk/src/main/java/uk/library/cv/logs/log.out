@@ -1,0 +1,8 @@
+2023-07-02 09:07:18 INFO  ManageBrowser :32 - launching chrome browser
+2023-07-02 09:07:909 INFO  Homepage :33 - Entering username : [[ChromeDriver: chrome on WINDOWS (2f364c41c348db3de8b360f17dfc2e4c)] -> name: username]
+2023-07-02 09:07:84 INFO  Homepage :37 - Entering password : [[ChromeDriver: chrome on WINDOWS (2f364c41c348db3de8b360f17dfc2e4c)] -> name: password]
+2023-07-02 09:07:666 INFO  Homepage :22 - Verify Dashboard text : [[ChromeDriver: chrome on WINDOWS (2f364c41c348db3de8b360f17dfc2e4c)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]
+2023-07-02 09:07:964 INFO  ManageBrowser :32 - launching chrome browser
+2023-07-02 09:07:572 INFO  Homepage :33 - Entering username : [[ChromeDriver: chrome on WINDOWS (b1671009e8006c355a12d5720a9a9077)] -> name: username]
+2023-07-02 09:07:790 INFO  Homepage :37 - Entering password : [[ChromeDriver: chrome on WINDOWS (b1671009e8006c355a12d5720a9a9077)] -> name: password]
+2023-07-02 09:07:850 INFO  Homepage :22 - Verify Dashboard text : [[ChromeDriver: chrome on WINDOWS (b1671009e8006c355a12d5720a9a9077)] -> xpath: //h6[@class='oxd-text oxd-text--h6 oxd-topbar-header-breadcrumb-module']]
